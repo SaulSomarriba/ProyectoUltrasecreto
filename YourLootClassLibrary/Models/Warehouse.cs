@@ -20,11 +20,11 @@ namespace YourLootClassLibrary.Models
 
         [Required(ErrorMessage = "Se requiere la ubicacion de la bodega")]
         [Display(Name = "Ubicacion")]
-        public int Ubication { get; set; }
+        public String Ubication { get; set; }
 
         [Required(ErrorMessage = "Se requiere la descripcion de la bodega")]
         [Display(Name = "Descripcion")]
-        public int Description { get; set; }
+        public String Description { get; set; }
 
         [ScaffoldColumn(false)]
         [DataType(DataType.Date)]

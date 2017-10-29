@@ -48,10 +48,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\ModelContext.cs" />
-    <Compile Include="Migrations\201710280453151_InitialCreate.cs" />
-    <Compile Include="Migrations\201710280453151_InitialCreate.Designer.cs">
-      <DependentUpon>201710280453151_InitialCreate.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Batch.cs" />
     <Compile Include="Models\Client.cs" />
@@ -73,11 +69,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710280453151_InitialCreate.resx">
-      <DependentUpon>201710280453151_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

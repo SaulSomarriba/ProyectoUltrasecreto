@@ -28,11 +28,11 @@ namespace YourLootClassLibrary.Models
 
         [Required(ErrorMessage = "Se requiere el costo del producto")]
         [Display(Name = "cost")]
-        public string Cost { get; set; }
+        public float Cost { get; set; }
 
         [Required(ErrorMessage = "Se requiere el precio de venta del producto")]
         [Display(Name = "PrecioVenta")]
-        public string SellPrice { get; set; }
+        public float SellPrice { get; set; }
 
         [Required(ErrorMessage = "Se requiere seleccionar el lote del producto")]
         [Display(Name = "Lote")]
