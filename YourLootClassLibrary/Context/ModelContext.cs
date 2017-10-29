@@ -9,7 +9,7 @@ using YourLootClassLibrary.Models;
 
 namespace YourLootClassLibrary.Context
 {
-    class ModelContext : DbContext
+    public class ModelContext : DbContext
     {
         public ModelContext() : base("DefaultConnection")
         {
@@ -34,8 +34,6 @@ namespace YourLootClassLibrary.Context
         {
       
         }
-        
-
     }
 }
 
